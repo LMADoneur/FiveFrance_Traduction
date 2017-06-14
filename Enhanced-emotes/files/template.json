@@ -1,0 +1,14 @@
+{  
+  "emotes":[  
+    {  
+      "title":"",
+      "hash":"",
+      "delay":0,
+      "playEnterAnim":true,
+      "description":""
+    }
+  ],
+  "errorVehicle":"",
+  "errorUnexpected":"",
+  "errorPlayerID":""
+}
