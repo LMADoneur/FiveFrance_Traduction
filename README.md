@@ -19,7 +19,7 @@ https://fivefrance.fr/topic/11/%C3%A9quipe-de-traduction
 
 **FR** Utilise le bouton *Clone or Download* ou utilise *Downgit*
 
-## I'm a developper and I don't speak french, or other languages. Please help me!
+## I'm a developer and I don't speak french, or other languages. Please help me!
 
 Simply contact one of the translator above and we will make translations for your ressource.
 
