@@ -1,17 +1,18 @@
-# FIVREFRANCE FIVEM ADDONS TRANSLATIONS
+# **FiveFrance.fr** FiveM Addons translation / Traduction de Mods FiveM
 
-## Translators team:
+## Translators team / L'équipe de traduction
 
 * LMA.Doneur | http://steamcommunity.com/id/doneur
-* Kyomini | 
+* Kyomini | http://steamcommunity.com/id/Kyomini/
 * Marceau | https://steamcommunity.com/id/skorpiox/
 * Gabz | https://steamcommunity.com/profiles/76561193939910220
 * NicolasStr_ | http://steamcommunity.com/id/nicolasstr_/
 
-## How to join us ?
+## How to join us ? / Comment nous rejoindre ?
 
-Simply contact one of the translator above!
+https://fivefrance.fr/topic/11/%C3%A9quipe-de-traduction
 
-## I want to download a translated ressource, how ?
+## I want to download a translated ressource, how ? / Comment télécharger un script ?
 
-Simply download pack on top right of git repo and simply upload the needed ressource on your server (like an habitual ressource)
+**EN**Simply download pack on top right of git repo and simply upload the needed ressource on your server (like an habitual ressource)
+**FR**Utilise le bouton *Clone or Download* ou utilise *Downgit*
