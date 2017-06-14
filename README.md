@@ -11,7 +11,6 @@
 
 ## How to join us ? / Comment nous rejoindre ?
 
-
 https://fivefrance.fr/topic/11/%C3%A9quipe-de-traduction
 
 ## How to download ? / Comment télécharger un script ?
@@ -19,3 +18,9 @@ https://fivefrance.fr/topic/11/%C3%A9quipe-de-traduction
 **EN** Simply download pack on top right of git repo and simply upload the needed ressource on your server (like an habitual ressource)
 
 **FR** Utilise le bouton *Clone or Download* ou utilise *Downgit*
+
+## I'm a developper and I don't know how to speak french, or other languages. Please help me!
+
+Simply contact one of the translator above and we will make translations for your ressource.
+
+I know, we are genius.
