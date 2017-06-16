@@ -1,14 +1,21 @@
 # Enhanced-emotes
 
-# TODO
+## PRESENTATION
 
-- Add gui
-- Add more emotes: https://pastebin.com/6mrYTdQv
+Ce mod vous permet de jouer des émotes à l'aide d'un menu <br />
+Par défaut, vous pouvez ouvrir le menu avec K, bouger dedans avec les flèches HAUT/BAS, et sélectionner avec ENTRER <br /> 
+Se déplacer annule l'émote en cours <br /> 
+Vous pouvez ajouter vos émotes en modifiant le json ou en créent le votre grace au modèle situé dans le dossier files <br />
 
-# KNOWN ISSUE
+![Menu](https://puu.sh/wk4cB.jpg)
+![Interaction](https://puu.sh/wk4fP.jpg)
 
-- If you change file into config.ini & _resource.lua, you'll have to reboot the game to get the new one
+## TODO
+- Ajouter plus d'émotes par défaut: https://pastebin.com/6mrYTdQv
+- Ajouter des catégories
 
-# NOTE
+## SUGGESTIONS
+Vous pouvez me laisser des suggestions ici: https://forum.fivem.net/t/release-enhanced-emotes-v2-c/22474
 
-- You can pull request your new json files if you want, so they will be shared with the community
+## CONTRIBUTE
+Si vous voulez contribuer au projet, vous pouvez toujours fork et pull request
