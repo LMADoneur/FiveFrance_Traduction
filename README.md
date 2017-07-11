@@ -24,3 +24,9 @@ https://fivefrance.fr/topic/11/%C3%A9quipe-de-traduction
 Simply contact one of the translator above and we will make translations for your ressource.
 
 I know, we are genius.
+
+##Credits
+* **Enhanced_emotes**, Traducteur: *Marceau*
+* **Es_bank**, Traducteur: *Marceau*
+* **Es_holdup**, Traducteur: *Marceau*
+* **FRFuel**, Traducteur: *LMA.Doneur*
