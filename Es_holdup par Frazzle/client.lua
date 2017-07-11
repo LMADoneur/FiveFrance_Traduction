@@ -99,7 +99,7 @@ Citizen.CreateThread(function()
 		SetBlipScale(blip, 0.8)
 		SetBlipAsShortRange(blip, true)
 		BeginTextCommandSetBlipName("STRING")
-		AddTextComponentString("Magasins braquable")
+		AddTextComponentString("Magasin braquable")
 		EndTextCommandSetBlipName(blip)
 	end
 end)
