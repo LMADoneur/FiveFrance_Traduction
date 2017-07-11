@@ -28,13 +28,13 @@ local banks = {
 	["fleeca"] = {
 		position = { ['x'] = 147.04908752441, ['y'] = -1044.9448242188, ['z'] = 29.36802482605 },
 		reward = 50000,
-		nameofbank = "Fleeca Bank",
+		nameofbank = "Banque Fleeca",
 		lastrobbed = 0
 	},
 	["fleeca2"] = {
 		position = { ['x'] = -2957.6674804688, ['y'] = 481.45776367188, ['z'] = 15.697026252747 },
 		reward = 20000,
-		nameofbank = "Fleeca Bank (Highway)",
+		nameofbank = "Banque Fleeca (Autoroute)",
 		lastrobbed = 0
 	},
 	["blainecounty"] = {
@@ -55,7 +55,7 @@ end)
 RegisterNetEvent('es_bank:toofarlocal')
 AddEventHandler('es_bank:toofarlocal', function(robb)
 	robbing = false
-	TriggerEvent('chatMessage', 'SYSTEM', {255, 0, 0}, "The robbery was cancelled, you will receive nothing.")
+	TriggerEvent('chatMessage', 'SYSTÈME', {255, 0, 0}, "Le braquage à été annulé, vous n'allez rien recevoir.")
 	robbingName = ""
 	secondsRemaining = 0
 	incircle = false
@@ -65,7 +65,7 @@ end)
 RegisterNetEvent('es_bank:robberycomplete')
 AddEventHandler('es_bank:robberycomplete', function(robb)
 	robbing = false
-	TriggerEvent('chatMessage', 'SYSTEM', {255, 0, 0}, "Robbery done, you received: ^2" .. banks[bank].reward)
+	TriggerEvent('chatMessage', 'SYSTÈME', {255, 0, 0}, "Braquare réussi, vous avez reçu: ^2" .. banks[bank].reward)
 	bank = ""
 	secondsRemaining = 0
 	incircle = false
@@ -93,7 +93,7 @@ Citizen.CreateThread(function()
 		SetBlipScale(blip, 0.8)
 		SetBlipAsShortRange(blip, true)
 		BeginTextCommandSetBlipName("STRING")
-		AddTextComponentString("Robbable Bank")
+		AddTextComponentString("Banque braquable")
 		EndTextCommandSetBlipName(blip)
 	end
 end)
@@ -112,7 +112,7 @@ Citizen.CreateThread(function()
 					
 					if(Vdist(pos.x, pos.y, pos.z, pos2.x, pos2.y, pos2.z) < 1.0)then
 						if (incircle == false) then
-							DisplayHelpText("Press ~INPUT_CONTEXT~ to rob ~b~" .. v.nameofbank .. "~w~ beware, the police will be alerted!")
+							DisplayHelpText("Appuie sur ~INPUT_CONTEXT~ pour braquer ~b~" .. v.nameofstore .. "~w~ attention, la police va être alerté!")
 						end
 						incircle = true
 						if(IsControlJustReleased(1, 51))then
@@ -127,7 +127,7 @@ Citizen.CreateThread(function()
 
 		if robbing then
 			
-			drawTxt(0.66, 1.44, 1.0,1.0,0.4, "Robbing bank: ~r~" .. secondsRemaining .. "~w~ seconds remaining", 255, 255, 255, 255)
+			drawTxt(0.66, 1.44, 1.0,1.0,0.4, "Braquage du magasin: ~r~" .. secondsRemaining .. "~w~ secondes restantes", 255, 255, 255, 255)
 			
 			local pos2 = banks[bank].position
 
