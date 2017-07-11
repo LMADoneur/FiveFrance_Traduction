@@ -25,7 +25,7 @@ Simply contact one of the translator above and we will make translations for you
 
 I know, we are genius.
 
-##Credits
+## Credits
 * **Enhanced_emotes**, Traducteur: *Marceau*
 * **Es_bank**, Traducteur: *Marceau*
 * **Es_holdup**, Traducteur: *Marceau*
